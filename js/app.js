@@ -101,5 +101,25 @@ var mySwiper = new Swiper(".swiper-container", {
 });
 
 
+let sr = ScrollReveal({
+  duration:2500,
+  distance:"60px",
+});
+sr.reveal(".overlay",{delay:600});
+sr.reveal(".links",{ origin:"top", delay:700});
+sr.reveal(".column-1",{ origin:"left", delay:500});
+sr.reveal(".column-2",{ origin:"right", delay:600});
+sr.reveal(".logo",{ origin:"top", delay:500});
+sr.reveal(".section-header",{ origin:"top", delay:800});
+sr.reveal(".cards",{ origin:"bottom", delay:900});
+sr.reveal(".contact-info",{ origin:"left", delay:700});
+sr.reveal(".contact-form",{ origin:"right", delay:700});
+
+sr.reveal(".portfolio",{ origin:"bottom", delay:600});
+sr.reveal(".filter",{ origin:"right", delay:500});
+sr.reveal(".grid",{ origin:"left", delay:800});
+sr.reveal(".records",{ origin:"top", delay:650});
+sr.reveal(".hireme",{ origin:"bottom", delay:700});
+// sr.reveal(".footer",{ origin:"left", delay:700});
 
 
